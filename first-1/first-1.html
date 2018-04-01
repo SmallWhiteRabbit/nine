@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>九宫格</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0，height= device-height" />
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    div{
+      height: 100%;
+    }
+    span{
+      display: inline-block;
+      width: 10vw;
+      height: 10vw;
+      background-color: orange;
+      border-radius: 12%;
+    }
+  </style>
+<!--
+  首先是需要还原设计图，让页面一眼看上去和设计图是基本一致的；其次是改变浏
+  览器宽度，保证浏览器在横向上不会出现滚动条，因为按照人们的使用习惯，浏览网页
+  时页面可以无限高度，只需要滚动鼠标往下拉，但如果出现了横向滚动条则会
+  造成非常差的用户体验；最后是保证页面的主体内容能随页面宽度变化，保证它占满
+  整个页面宽度，最大化展示区域。
+-->
+</head>
+<body>
+<div>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<div>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<div>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+
+</body>
+</html>
